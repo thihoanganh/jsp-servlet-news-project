@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators>
+	
+	<excludes>
+		<pattern>/dang-nhap*</pattern>
+	</excludes>
+	<decorator name="admin" page="/views/layout/admin_layout.jsp">
+		<pattern>/admin*</pattern>
+	</decorator>
+	<decorator name="user" page="/views/layout/user_layout.jsp">
+		<pattern>/</pattern>
+	</decorator>
+</decorators>
